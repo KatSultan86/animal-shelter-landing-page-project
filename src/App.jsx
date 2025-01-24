@@ -1,9 +1,27 @@
-import Logo from './components/Logo';
+import Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
+import Card from './components/Card.jsx';
+import CardContainer from './components/CardContainer.jsx';
 
 function App() {
   return (
     <>
-      <Logo />
+      <Navbar />
+      <Hero />
+      <CardContainer>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+
+
+      </CardContainer>
+
     </>
   );
 }
