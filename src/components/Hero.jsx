@@ -2,11 +2,12 @@
 
 export default function Hero() {
     return (
-        <div className="container d-flex justify-content-center mt-5" >
+
+        <div className=" container-fluid d-flex justify-content-center " >
 
             <div className="row">
 
-                <div className="col-9">
+                <div className="col-9 mt-5">
                     <div className="font-weights">
                         <h1 className="fw-bolder">Find Your Perfect <span class="text-primary">Companion</span></h1>
                         <p className="fw-lighter text-secondary">Every pet in our shelter has a story and is waiting for a loving forever home. Start your jorney of a pet adoption today.</p>
@@ -17,7 +18,7 @@ export default function Hero() {
                     <div className="btn btn-sm ps-0">
                         <div className="hstack gap-2">
                             <button type="button" className="btn btn-primary rounded-pill">Adopt a Pet</button>
-                            <button type="button" className="btn btn-outline-primary rounded-pill">Learn More</button>
+                            <button type="button" className="btn-hero btn btn-outline-primary rounded-pill">Learn More</button>
                         </div>
                     </div>
 
@@ -60,7 +61,7 @@ export default function Hero() {
 
 
 
-            <div className="col-6">
+            <div className="col-6 mt-5">
                 {/* image */}
                 <div className="">
                     <img src="src/assets/animals.jpg" alt="Image" width="100%" height="100%" />
@@ -70,6 +71,8 @@ export default function Hero() {
 
 
         </div >
+
+
 
     )
 }

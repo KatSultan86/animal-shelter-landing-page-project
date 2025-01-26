@@ -4,7 +4,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-primary navbar-expand-lg sticky-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand ms-4" href="#">
                     Happy Tails
                 </a>
                 <button
@@ -26,7 +26,7 @@ export default function Navbar() {
                         <a className="nav-link" href="#">
                             Adopt
                         </a>
-                        <a className="nav-link" href="#">
+                        <a className="nav-link me-4" href="#">
                             Contact
                         </a>
                     </div>
