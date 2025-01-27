@@ -10,7 +10,7 @@ export default [
         title: "Milo",
         titleText: "A spunky cat always ready for a new advanture.",
         text: "Milo was rescued from an abandoned house,yet he's anything but timid. The moment he arrived, he acted like the shelter was his personal playground- investigating every nook and greeting everyone with cheerful meows. He's happies leaping after feather toys and curling up next to you ones he's tired himself out.",
-        src: "src/assets/cat-2.jpgg"
+        src: "src/assets/cat-2.jpg"
     },
 
     {
