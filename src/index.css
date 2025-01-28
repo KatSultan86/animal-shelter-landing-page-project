@@ -36,13 +36,14 @@
 
 .main-container {
     background-color: rgb(253, 252, 252);
-    height: 50dvh;
+
 
 }
 
-.btn-hero {
+/* .btn-hero {
     border: 1.5px solid;
     border-image: linear-gradient(to right, red, green, blue, indigo, violet);
     border-image-slice: 1;
     border-radius: 50rem;
-}
+} */
+
